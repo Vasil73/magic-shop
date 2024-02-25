@@ -1,0 +1,15 @@
+:root {
+  font-family: "Roboto Thin", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1310px;
+  padding: 0 100px
+}
+
+body {
+  background-color: #cccccc;
+}
+
+
