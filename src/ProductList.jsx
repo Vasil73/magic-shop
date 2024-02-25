@@ -1,6 +1,6 @@
 
 import PropTypes from "prop-types";
-import './ProductList.css'; // Импортируем файл стилей
+import './ProductList.css';
 
 export function ProductList({ products }) {
     return (
