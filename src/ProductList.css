@@ -1,5 +1,4 @@
 .product-container {
-    text-align: center;
     margin: 20px;
 
 }
@@ -30,9 +29,9 @@
     border-radius: 15px;
 }
 
-.product-card h2 {
-    font-size: 14px;
-    margin: 10px 0;
+h2 {
+    width: 97%;
+    font-size: 12px;
 }
 
 .product-card p {
@@ -41,4 +40,23 @@
 
 .product-card p {
     margin: 5px 0;
+}
+
+.product-card .old-price {
+    text-decoration: line-through;
+    margin-right: 5px;
+    color: cadetblue;
+}
+
+.product-card .discount {
+    color: red;
+}
+
+.price {
+    margin-left: 5px;
+    margin-right: 10px;
+    font-size: 15px;
+    font-style: oblique;
+    font-weight: bold;
+    color: greenyellow;
 }
