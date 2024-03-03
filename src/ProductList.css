@@ -3,7 +3,15 @@
 
 }
 
+span,
+h1,
+h2,
+p {
+    margin: 0;
+}
+
 .product-title {
+    text-align: center;
     font-size: 28px;
     margin-bottom: 20px;
     color: brown;
@@ -18,7 +26,7 @@
 .product-card {
     border: 1px solid #ccc;
     border-radius: 23px;
-    padding: 10px;
+    padding: 14px;
     margin: 10px;
     width: 16%;
     background-color: white;
@@ -31,15 +39,12 @@
 
 h2 {
     width: 97%;
-    font-size: 12px;
+    font-size: 13px;
+    line-height: 19px;
 }
 
-.product-card p {
-    font-size: 12px;
-}
-
-.product-card p {
-    margin: 5px 0;
+img {
+    margin-bottom: 10px;
 }
 
 .product-card .old-price {
@@ -48,15 +53,19 @@ h2 {
     color: cadetblue;
 }
 
-.product-card .discount {
-    color: red;
+.old-price {
+ font-size: 12px;
+}
+
+p {
+    margin-bottom: 15px;
 }
 
 .price {
     margin-left: 5px;
     margin-right: 10px;
-    font-size: 15px;
-    font-style: oblique;
+    font-size: 17px;
+    font-style: normal;
     font-weight: bold;
     color: greenyellow;
 }
