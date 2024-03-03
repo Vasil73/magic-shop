@@ -1,6 +1,7 @@
 .product-container {
+    display: flex;
+    flex-direction: column;
     margin: 20px;
-
 }
 
 span,
@@ -27,7 +28,7 @@ p {
     border: 1px solid #ccc;
     border-radius: 23px;
     padding: 14px;
-    margin: 10px;
+    margin: 6px;
     width: 16%;
     background-color: white;
 }
