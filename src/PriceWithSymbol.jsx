@@ -3,7 +3,7 @@
 export function PriceWithSymbol({ price }) {
     return (
         <span>
-            {price}&amp;#8381;
+            {price} ₽
         </span>
     );
 }

@@ -12,6 +12,8 @@ p {
 }
 
 .product-title {
+    padding-top: 30px;
+    padding-bottom: 10px;
     text-align: center;
     font-size: 28px;
     margin-bottom: 20px;
@@ -49,13 +51,10 @@ img {
 }
 
 .product-card .old-price {
-    text-decoration: line-through;
-    margin-right: 5px;
-    color: cadetblue;
-}
-
-.old-price {
- font-size: 12px;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: bold;
+    color: black;
 }
 
 p {
@@ -69,4 +68,18 @@ p {
     font-style: normal;
     font-weight: bold;
     color: greenyellow;
+}
+
+.product-card .new-price {
+    text-decoration: line-through;
+    margin-right: 5px;
+    color: cadetblue;
+    font-size: 12px;
+}
+
+.new-price {
+    font-size: 17px;
+    font-style: normal;
+    font-weight: bold;
+    color: black;
 }

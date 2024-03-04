@@ -2,7 +2,6 @@ import PropTypes from "prop-types";
 import './ProductList.css';
 import {PriceWithSymbol} from "./PriceWithSymbol.jsx";
 
-
 export function ProductList({products}) {
     return (
         <div className="product-container">
@@ -15,14 +14,16 @@ export function ProductList({products}) {
                             <p>
                                 <span className="price">
                                     {product.discount ? (
-                                        <PriceWithSymbol price={(product.price - (product.price * product.discount))}/>
+                                      <PriceWithSymbol price={product.price - (product.price * product.discount)} />
                                     ) : (
-                                        <PriceWithSymbol price={product.price}/>
+                                        <span className="old-price">
+                                           <PriceWithSymbol price={product.price} />
+                                        </span>
                                     )}
                                 </span>
                                 {product.discount ? (
-                                    <span className="old-price">
-                                      <PriceWithSymbol price={product.price}/>
+                                    <span className="new-price">
+                                     <PriceWithSymbol price={product.price} />
                                     </span>
                                 ) : null}
                             </p>
