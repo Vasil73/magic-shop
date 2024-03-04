@@ -5,7 +5,7 @@ import {PriceWithSymbol} from "./PriceWithSymbol.jsx";
 export function ProductList({products}) {
     return (
         <div className="product-container">
-            <h1 className="product-title">Список продуктов</h1>
+            <h1 className="product-title">Список товаров</h1>
             <div className="card-container">
                 {
                     products.map((product) => (
